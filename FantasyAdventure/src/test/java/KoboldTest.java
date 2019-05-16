@@ -1,3 +1,4 @@
+import Game.Character;
 import Game.Monster.Enemies.Kobold;
 import org.junit.Before;
 import org.junit.Test;

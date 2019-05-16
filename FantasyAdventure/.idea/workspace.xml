@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47fa010-0a02-4a64-b3dc-86d3ca1a0c62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Interfaces/IRestore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Items/HealingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KoboldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Interfaces/IHabitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Characters/Healer/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Characters/Healer/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Characters/Healer/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Characters/Healer/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Melee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Melee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Interfaces/IHeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Interfaces/IHeal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Monster/Enemies/Kobold.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Monster/Enemies/Kobold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Healer/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Healer/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Healer/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Interfaces/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Interfaces/IHeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Monster/Enemies/Kobold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Monster/Enemies/Kobold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KoboldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KoboldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,29 +25,86 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Monster/Enemies/Kobold.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/KoboldTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="101">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RogueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="20" column="12" selection-start-line="20" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Monster/Allies/Ogre.java" />
         <option value="$PROJECT_DIR$/src/test/java/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Interfaces/IAttack.java" />
@@ -108,7 +150,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Characters/Healer/Healer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Monster/Enemies/Kobold.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Interfaces/IHabitable.java" />
         <option value="$PROJECT_DIR$/src/test/java/KoboldTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
       </list>
     </option>
   </component>
@@ -265,7 +310,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558010251610" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558013110704" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -284,50 +329,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KoboldTest.canBiteVictim">
-    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RoomTest.hasEnemies">
+    <configuration name="RoomTest.countAliveCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClericTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="countAliveCharacters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClericTest.canHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.countAliveEnemies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canHeal" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="countAliveEnemies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KoboldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.enterRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KoboldTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="enterRoom" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KoboldTest.canBiteVictim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.hasEnemies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KoboldTest" />
-      <option name="METHOD_NAME" value="canBiteVictim" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="hasEnemies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.leaveRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="leaveRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KoboldTest.canBiteVictim" />
-        <item itemvalue="JUnit.KoboldTest" />
-        <item itemvalue="JUnit.BarbarianTest" />
-        <item itemvalue="JUnit.ClericTest.canHeal" />
-        <item itemvalue="JUnit.ClericTest.canAttack" />
+        <item itemvalue="JUnit.RoomTest.hasEnemies" />
+        <item itemvalue="JUnit.RoomTest.countAliveEnemies" />
+        <item itemvalue="JUnit.RoomTest.countAliveCharacters" />
+        <item itemvalue="JUnit.RoomTest.leaveRoom" />
+        <item itemvalue="JUnit.RoomTest.enterRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -357,27 +404,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RogueTest_canHit - 2019.05.16 at 11h 53m 26s.xml">
-      <configuration name="RogueTest.canHit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KnightTest_canHeal - 2019.05.16 at 13h 10m 58s.xml">
-      <configuration name="KnightTest.canHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest - 2019.05.16 at 13h 22m 26s.xml">
-      <configuration name="ClericTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_canAttack - 2019.05.16 at 13h 23m 24s.xml">
-      <configuration name="ClericTest.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_canAttack - 2019.05.16 at 13h 24m 28s.xml">
-      <configuration name="ClericTest.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_canHeal - 2019.05.16 at 13h 25m 25s.xml">
-      <configuration name="ClericTest.canHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarbarianTest - 2019.05.16 at 13h 32m 23s.xml">
-      <configuration name="BarbarianTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KoboldTest - 2019.05.16 at 13h 35m 30s.xml">
       <configuration name="KoboldTest" configurationId="JUnit" />
     </history-entry>
@@ -387,9 +413,30 @@
     <history-entry file="KoboldTest - 2019.05.16 at 13h 36m 18s.xml">
       <configuration name="KoboldTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KoboldTest_canBiteVictim - 2019.05.16 at 13h 37m 33s.xml">
+      <configuration name="KoboldTest.canBiteVictim" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest - 2019.05.16 at 14h 15m 49s.xml">
+      <configuration name="RoomTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest_hasKobolds - 2019.05.16 at 14h 16m 25s.xml">
+      <configuration name="RoomTest.hasKobolds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest_hasTreasure - 2019.05.16 at 14h 16m 55s.xml">
+      <configuration name="RoomTest.hasTreasure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest_enterRoom - 2019.05.16 at 14h 17m 41s.xml">
+      <configuration name="RoomTest.enterRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest_leaveRoom - 2019.05.16 at 14h 18m 16s.xml">
+      <configuration name="RoomTest.leaveRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoomTest_countAliveCharacters - 2019.05.16 at 14h 19m 38s.xml">
+      <configuration name="RoomTest.countAliveCharacters" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -406,7 +453,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33055556" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3310153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,13 +470,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Caster/Warlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -469,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Items/Treasure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -557,18 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RogueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -596,35 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Interfaces/IHeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,16 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -704,6 +686,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Interfaces/IHeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Monster/Enemies/Kobold.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -715,16 +704,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KoboldTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Items/Treasure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Interfaces/IHabitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="12" selection-start-line="20" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RogueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KoboldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
           </folding>
         </state>
       </provider>
