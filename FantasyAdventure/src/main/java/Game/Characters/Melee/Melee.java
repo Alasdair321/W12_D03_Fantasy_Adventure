@@ -15,7 +15,7 @@ public class Melee extends Character {
         this.strength = strength;
     }
 
-    private int damage(){
+    protected int damage(){
         return weapon.getDamage()*strength;
     }
 
