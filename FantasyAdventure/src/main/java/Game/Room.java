@@ -1,3 +1,5 @@
+package Game;
+
 import Game.Character;
 import Game.Interfaces.IHabitable;
 import Game.Items.Treasure;
@@ -10,10 +12,16 @@ public class Room implements IHabitable {
     private ArrayList<Character> enemies;
     private Treasure treasures; //make some treasure
 
+
+
     public Room(ArrayList<Character> enemies, Treasure treasures) {
         this.characters = new ArrayList<>();
         this.enemies = enemies;
         this.treasures = treasures;
+    }
+
+    public ArrayList<Character> getCharacters() {
+        return characters;
     }
 
     public Treasure getTreasures() {
@@ -36,8 +44,8 @@ public class Room implements IHabitable {
 
     public int countEnemiesAlive(){
         int living = 0;
-        for (Character kobold : enemies){
-            if (kobold.isAlive()){
+        for (Character enemy : enemies){
+            if (enemy.isAlive()){
                 living+=1;
             }
         }

@@ -8,6 +8,7 @@ import Game.Items.HealingItem;
 import Game.Items.Treasure;
 import Game.Items.Weapon;
 import Game.Monster.Enemies.Kobold;
+import Game.Room;
 import org.junit.Before;
 import org.junit.Test;
 
