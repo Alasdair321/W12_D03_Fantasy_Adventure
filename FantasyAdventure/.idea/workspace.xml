@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47fa010-0a02-4a64-b3dc-86d3ca1a0c62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Barbarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Melee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Game/Characters/Melee/Melee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RogueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,42 +22,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="332">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Barbarian.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RogueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +79,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Melee.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Barbarian.java" />
         <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RogueTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558003305711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558004005462" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -275,16 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest.rageTakeDamagex2">
-    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RogueTest.canHit">
     <configuration name="BarbarianTest.goRage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -315,11 +287,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.doesDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="doesDamage" />
+      <option name="MAIN_CLASS_NAME" value="RogueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RogueTest.canHit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.fantasyadventure.FantasyAdventure.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RogueTest" />
+      <option name="METHOD_NAME" value="canHit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -327,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RogueTest.canHit" />
+        <item itemvalue="JUnit.RogueTest" />
         <item itemvalue="JUnit.BarbarianTest.rageTakeDamagex2" />
         <item itemvalue="JUnit.BarbarianTest.rageDamagex2" />
         <item itemvalue="JUnit.BarbarianTest.goRage" />
-        <item itemvalue="JUnit.BarbarianTest" />
-        <item itemvalue="JUnit.KnightTest.doesDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +348,15 @@
     <history-entry file="BarbarianTest_rageDamagex2 - 2019.05.16 at 11h 40m 06s.xml">
       <configuration name="BarbarianTest.rageDamagex2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarbarianTest_rageTakeDamagex2 - 2019.05.16 at 11h 41m 18s.xml">
+      <configuration name="BarbarianTest.rageTakeDamagex2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarbarianTest_rageTakeDamagex2 - 2019.05.16 at 11h 41m 39s.xml">
+      <configuration name="BarbarianTest.rageTakeDamagex2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarbarianTest_rageTakeDamagex2 - 2019.05.16 at 11h 41m 47s.xml">
+      <configuration name="BarbarianTest.rageTakeDamagex2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="6" />
@@ -377,7 +367,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -386,7 +376,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -612,9 +595,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Barbarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -628,22 +623,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="324">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Characters/Melee/Rogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state relative-caret-position="332">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RogueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
