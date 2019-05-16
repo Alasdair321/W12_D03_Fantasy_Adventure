@@ -24,14 +24,6 @@ public class Melee extends Character {
         victim.defend(damage());
     }
 
-    @Override
-    public void defend(int damage) {
-        int damageTaken = damage - armourClass;
-        if (damageTaken > 0) {
-            health -= damageTaken;
-        }
-    }
-
     public IDamage getWeapon() {
         return weapon;
     }

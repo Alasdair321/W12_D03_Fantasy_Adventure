@@ -1,4 +1,9 @@
 package Game.Characters.Healer;
 
-public class Cleric {
+import Game.Interfaces.IRestore;
+
+public class Cleric extends Healer {
+    public Cleric(int health, int armourClass, IRestore healingTool) {
+        super(health, armourClass, healingTool);
+    }
 }

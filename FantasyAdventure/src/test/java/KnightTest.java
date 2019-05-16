@@ -42,4 +42,11 @@ public class KnightTest {
         assertEquals(90, knight.getHealth());
 
     }
+
+    @Test
+    public void canHeal() {
+        knight.heal(5);
+        assertEquals(105, knight.getHealth());
+
+    }
 }
